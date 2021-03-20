@@ -2,12 +2,13 @@
 
 class Main{
   public static void main(String[]args){
-    int a, b, x;
+
+    int distancia;
 
     Scanner teclado = new Scanner(System.in);
-    a = teclado.nextInt();
-    b = teclado.nextInt();
-    x = a + b;
-    System.out.printf("X = %d\n", x);
+
+    distancia = teclado.nextInt();
+
+    System.out.printf("%d minutos\n", distancia * 2);
   }
 }*/
